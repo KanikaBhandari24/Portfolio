@@ -1,0 +1,99 @@
+@import "../../var.css";
+*{
+    color: var(--color-text);
+}
+.container{
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 12px;
+    padding: 70px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.heading{
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+button{
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: var(--color-primary);
+    border-radius: 100px;
+    padding: 2px 20px;
+}
+p{
+    padding: 0;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ladki{
+    width: 40%;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating{
+    0%{
+        transform: translate(0, 0px);
+    }
+    50%{
+        transform: translate(0, 10px);
+    }
+    100%{
+        transform: translate(0, -0px);
+    }
+
+}
+.abtItems{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.abtItem{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        90deg, rgba(165, 215, 232, 42%) 0%,
+        rgba(255,255,255,0) 100%
+    );
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+.abtItem:hover{
+    background-size: 100% 100%;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 12px;
+    padding: 5px;
+}
+p{
+    padding: 10px;
+    font-size: 18px;
+}
+/* RESPONSIVENESS */
+@media screen and (max-width:830px){
+    .content{
+    display: flex;
+    flex-direction: column;
+    }
+    .container{
+        align-items: center;
+        justify-content: center;
+    }
+    .abtItems{
+        margin-top: 20px;
+    }
+}

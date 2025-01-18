@@ -1,0 +1,54 @@
+@import "../../var.css";
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #19376d;
+    box-shadow: 0 16px 14px 0 #04152d;
+    padding: 18px 24px;
+    max-width: 340px;
+} 
+.image{
+    margin-bottom: 10px;
+}
+.title{
+    margin-bottom: 5px;
+    font-size: 27px;
+    padding: 0;
+}
+.description{
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.skills{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+.skill{
+    font-size: 17px;
+    margin-bottom: 10px;
+    background-color: var(--color-dark);
+    border-radius: 100px;
+    padding: 2px 22px;
+}
+.links{
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.link{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: var(--color-primary);
+    border-radius: 100px;
+    padding: 2px 22px;
+}

@@ -1,0 +1,101 @@
+@import "../../var.css";
+*{
+    font-family: var(--font-robot);
+}
+.container{
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.content{
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+}
+.title{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0)120%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.description{
+    font-size: 25px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+.contactBtn{
+    background-color: var(--color-primary);
+   
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 12px 18px;
+    border-radius: 100px; 
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+.heroImg{
+    width: 50%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    border-radius: 50% 50%;
+    width: 400px;
+    height: 400px;
+
+}
+@keyframes floating{
+    0%{
+        transform: translate(0, 0px);
+    }
+    50%{
+        transform: translate(0, 10px);
+    }
+    100%{
+        transform: translate(0, -0px);
+    }
+}
+.topBlur{
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    min-width: 350px;
+    top: -128px;
+    left: -10vw;
+    border-radius: 764px;
+    background: rgba(56, 76, 113, 0.5);
+    filter: blur(100px);
+    z-index: 0;
+}
+.bottomBlur{
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    min-width: 250px;
+    /* top: 425px; */
+    right: -25vw;
+    border-radius: 764px;
+    /* background: rgb(76 83 96 / 70%); */
+    filter: blur(100px);
+    z-index: 0;
+}
+@media screen and (max-width: 830px){
+    .container{
+        flex-direction: column-reverse;
+    }
+    .content{
+        align-items: center;
+    }
+}

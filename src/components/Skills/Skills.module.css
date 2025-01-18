@@ -1,0 +1,39 @@
+@import "../../var.css";
+*{
+    font-family: var(--font-robot);
+}
+.container{
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 70px;
+    margin-top: 120px;
+}
+.heading{
+    font-size: 30px;
+    letter-spacing: 6px; 
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+/* p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+/* .skill img{
+    background-color: var(--color-secondary);
+    border-radius: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */

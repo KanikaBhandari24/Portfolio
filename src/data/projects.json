@@ -1,0 +1,32 @@
+[
+    {
+      "title": "ConvoWord",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to convert a file from WORD to PDF format.",
+      "skills": ["React", "Express", "Node"],
+      "source": "https://github.com/KanikaBhandari24/ConvoWord"
+    },
+    {
+      "title": "YoPass",
+      "imageSrc": "projects/project.png",
+      "description": "This project is a password manager made to manage your passwords.",
+      "skills": ["HTML", "CSS", "JS"],
+      "demo": "https://kanikabhandari24.github.io/PASSWORD-MANAGER/",
+      "source": "https://github.com/KanikaBhandari24/PASSWORD-MANAGER"
+    },
+    {
+      "title": "Netflix Clone",
+      "imageSrc": "projects/project.png",
+      "description": "My first clone!",
+      "skills": ["HTML", "CSS"],
+      "source": "https://github.com/KanikaBhandari24/NetflixClone"
+    },
+    {
+      "title": "MacBook Pro",
+      "imageSrc": "projects/project.png",
+      "description": "MacBook Pro landing page with animated features.",
+      "skills": ["React", "Three.JS", "React Three Fiber"],
+      "demo": "https://mac-book-pro-landing-page.vercel.app/",
+      "source": "https://github.com/KanikaBhandari24/MacBook-Pro-Landing-Page"
+    }
+  ]
