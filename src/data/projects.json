@@ -1,10 +1,26 @@
 [
+  {
+    "title": "GoTravel",
+    "imageSrc": "projects/project.png",
+    "description": "A Responsive travel app.",
+    "skills": ["Next.js", "Typescript", "Tailwind CSS"],
+    "demo": "https://travel-app-eta-ruby.vercel.app/",
+    "source": "https://github.com/KanikaBhandari24/Travel-App"
+  },
     {
       "title": "ConvoWord",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to convert a file from WORD to PDF format.",
       "skills": ["React", "Express", "Node"],
       "source": "https://github.com/KanikaBhandari24/ConvoWord"
+    },
+    {
+      "title": "MacBook Pro",
+      "imageSrc": "projects/project.png",
+      "description": "MacBook Pro landing page with animated features.",
+      "skills": ["React", "Three.JS", "React Three Fiber"],
+      "demo": "https://mac-book-pro-landing-page.vercel.app/",
+      "source": "https://github.com/KanikaBhandari24/MacBook-Pro-Landing-Page"
     },
     {
       "title": "YoPass",
@@ -20,13 +36,5 @@
       "description": "My first clone!",
       "skills": ["HTML", "CSS"],
       "source": "https://github.com/KanikaBhandari24/NetflixClone"
-    },
-    {
-      "title": "MacBook Pro",
-      "imageSrc": "projects/project.png",
-      "description": "MacBook Pro landing page with animated features.",
-      "skills": ["React", "Three.JS", "React Three Fiber"],
-      "demo": "https://mac-book-pro-landing-page.vercel.app/",
-      "source": "https://github.com/KanikaBhandari24/MacBook-Pro-Landing-Page"
     }
   ]
