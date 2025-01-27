@@ -1,5 +1,13 @@
 [
   {
+    "title": "Docs App",
+    "imageSrc": "projects/project.png",
+    "description": "A docs app with motions!",
+    "skills": ["Vite + React", "Tailwind.css", "Framer-motion"],
+    "demo":"https://docs-app-two-indol.vercel.app/",
+    "source": "https://github.com/KanikaBhandari24/Docs-App"
+  },
+  {
     "title": "GoTravel",
     "imageSrc": "projects/project.png",
     "description": "A Responsive travel app.",
@@ -29,12 +37,5 @@
       "skills": ["HTML", "CSS", "JS"],
       "demo": "https://kanikabhandari24.github.io/PASSWORD-MANAGER/",
       "source": "https://github.com/KanikaBhandari24/PASSWORD-MANAGER"
-    },
-    {
-      "title": "Netflix Clone",
-      "imageSrc": "projects/project.png",
-      "description": "My first clone!",
-      "skills": ["HTML", "CSS"],
-      "source": "https://github.com/KanikaBhandari24/NetflixClone"
     }
   ]
