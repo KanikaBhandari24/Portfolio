@@ -1,5 +1,13 @@
 [
   {
+    "title": "OCHI",
+    "imageSrc": "projects/project.png",
+    "description": "Clone of OCHI design using animation.",
+    "skills": ["React", "GSAP", "Framer-motion"],
+    "demo": "https://ochi-design-theta.vercel.app/",
+    "source": "https://github.com/KanikaBhandari24/OCHI"
+  },
+  {
     "title": "Docs App",
     "imageSrc": "projects/project.png",
     "description": "A docs app with motions!",
